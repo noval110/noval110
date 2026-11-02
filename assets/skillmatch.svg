@@ -15,12 +15,28 @@
 <path d="M632 25 V166" stroke="#5c7f9e" opacity=".25"/>
 
 <path d="M778 56 L896 92 L778 128 M896 92 L999 56 M896 92 L999 128" fill="none" stroke="#a8afff" stroke-width="2" opacity=".55"/>
+
+<!-- Two subtle moving signals visualize reciprocal skill exchange -->
+<circle class="motion" r="4.3" fill="#D3D7FF">
+  <animateMotion path="M778 56 L896 92 L999 128" dur="6.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.2;.8;1" dur="6.8s" repeatCount="indefinite"/>
+</circle>
+<circle class="motion" r="3.6" fill="#8EE3EE">
+  <animateMotion path="M999 56 L896 92 L778 128" dur="7.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.2;.8;1" dur="7.8s" repeatCount="indefinite"/>
+</circle>
 <circle cx="777" cy="56" r="24" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
 <circle cx="777" cy="128" r="24" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
-<circle cx="896" cy="92" r="31" fill="#a8afff" fill-opacity=".16" stroke="#a8afff" stroke-width="2"/>
+<circle cx="896" cy="92" r="31" fill="#a8afff" fill-opacity=".16" stroke="#a8afff" stroke-width="2">
+  <animate attributeName="stroke-opacity" values=".65;1;.65" dur="5.5s" repeatCount="indefinite"/>
+</circle>
 <circle cx="1000" cy="56" r="22" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
 <circle cx="1000" cy="128" r="22" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
 <path d="M766 56 H788 M777 45 V67 M766 128 H788 M987 56 H1013 M989 128 H1011" stroke="#dce1ff" stroke-width="2" stroke-linecap="round"/>
 <text x="896" y="98" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#eef0ff">↔</text>
+
+<style>
+@media (prefers-reduced-motion: reduce) { .motion { display:none } }
+</style>
 <text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#517492" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
 </g></svg>
