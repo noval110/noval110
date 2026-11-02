@@ -1,74 +1,113 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B1226,100:9C3155&height=185&section=header&text=Hi%2C%20I'm%20Noval%20%F0%9F%91%8B&fontColor=FFFFFF&fontSize=42&fontAlignY=37&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Exploring%20AI%20Engineering&descAlignY=59&descSize=17" alt="Noval profile header" width="100%" />
+<img src="./assets/noval-cover.svg" width="100%" alt="NOVAL — from an idea to a working system; developer portfolio cover" />
 
-**Building practical web applications, reliable backends, and AI-assisted tools.**
+<br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=noval110&label=PROFILE%20VIEWS&color=9C3155&style=for-the-badge)](https://github.com/noval110)
-[![Followers](https://img.shields.io/github/followers/noval110?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=24292f)](https://github.com/noval110?tab=followers)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-9C3155?style=for-the-badge&logo=github&logoColor=white)](https://github.com/noval110/portfolio)
+**Software developer / building for the web, the backend, and what comes next.**
 
-</div>
-
-## 👨‍💻 About Me
-
-I'm **Noval**, a developer focused on full-stack web development, backend engineering, and exploring AI. I enjoy turning ideas into working products, connecting APIs and databases, and learning how to deploy applications reliably.
-
-- 🔭 Working with **React, TypeScript, Go, Python, and PostgreSQL**.
-- 🌱 Exploring **AI engineering, software architecture, and DevOps**.
-- 🚀 Building projects in healthcare technology, sustainability, and skill-sharing.
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=react,ts,js,html,css,vite,go,python,cpp,postgres,docker,git,github,vercel" alt="React, TypeScript, JavaScript, HTML, CSS, Vite, Go, Python, C++, PostgreSQL, Docker, Git, GitHub, Vercel" />
+[Explore projects](#selected-work) · [Toolkit](#toolkit) · [Activity](#activity) · [Portfolio repository](https://github.com/noval110/portfolio)
 
 </div>
 
-## 📌 Featured Projects
+<br/>
 
-| Project | What it does | Stack |
-|:--|:--|:--|
-| **[FootGuard AI](https://github.com/noval110/footguard-AI)** | AI-assisted diabetic-foot screening and monitoring with clinical review support; not a diabetes diagnosis tool. | React, Go, FastAPI, PyTorch, PostgreSQL |
-| **[EcoLink](https://github.com/noval110/ecolink)** | A sustainability-focused platform with backend APIs and database integration. | Go, PostgreSQL, Docker |
-| **[SkillMatch](https://github.com/noval110/skillmatch)** | Connects people who want to share skills and learn from each other. | React, Go, PostgreSQL |
+### 01 / A LITTLE CONTEXT
 
-## 📊 GitHub Engineering Stats
+## I enjoy the space between *ideas* and *working software.*
+
+I'm **Noval**, a developer in Indonesia, working across user interfaces, APIs, databases, and AI-assisted applications. I care about systems that are not just interesting to build, but genuinely useful to the people using them.
+
+Right now, my focus is on **full-stack engineering**, strengthening my backend skills with **Go**, and exploring **AI engineering** through practical projects.
+
+> Build thoughtfully. Keep learning. Ship things that work.
+
+<br/>
+
+<a id="selected-work"></a>
+
+### 02 / SELECTED WORK
+
+## Things I've been building
+
+<a href="https://github.com/noval110/footguard-AI"><img src="./assets/footguard.svg" width="100%" alt="FootGuard AI project — healthcare technology" /></a>
+
+**[Explore FootGuard AI →](https://github.com/noval110/footguard-AI)**
+
+AI-assisted diabetic foot screening and monitoring, connecting image analysis with a clinical review workflow. Designed as a support tool rather than a diagnosis system.
+
+`React` &nbsp; `Go` &nbsp; `FastAPI` &nbsp; `PyTorch` &nbsp; `PostgreSQL`
+
+<br/>
+
+<a href="https://github.com/noval110/ecolink"><img src="./assets/ecolink.svg" width="100%" alt="EcoLink project — sustainable systems" /></a>
+
+**[Explore EcoLink →](https://github.com/noval110/ecolink)**
+
+A platform exploring how community activities, sustainability programs, and impact data can work together through structured backend services.
+
+`Go` &nbsp; `PostgreSQL` &nbsp; `Docker`
+
+<br/>
+
+<a href="https://github.com/noval110/skillmatch"><img src="./assets/skillmatch.svg" width="100%" alt="SkillMatch project — community learning" /></a>
+
+**[Explore SkillMatch →](https://github.com/noval110/skillmatch)**
+
+A skill-sharing concept that helps people connect around what they can teach and what they want to learn.
+
+`React` &nbsp; `Go` &nbsp; `PostgreSQL`
+
+<br/>
+
+<a id="toolkit"></a>
+
+### 03 / TOOLKIT
+
+## The technologies behind the work
+
+| Area | What I work with |
+|:---|:---|
+| **Interface** | React, TypeScript, JavaScript, HTML, CSS, Vite |
+| **Backend** | Go, REST APIs, authentication, service integration |
+| **Data & AI** | PostgreSQL, Python, FastAPI, PyTorch |
+| **Workflow** | Docker, Git, GitHub Actions, Vercel |
 
 <div align="center">
-
-<img height="175" src="https://github-stats-extended.vercel.app/api?username=noval110&show_icons=true&bg_color=0D1117&title_color=E7A0B7&text_color=C9D1D9&icon_color=E580A2&border_color=30363D" alt="Noval's GitHub statistics" />
-<img height="175" src="https://github-stats-extended.vercel.app/api/top-langs/?username=noval110&layout=compact&bg_color=0D1117&title_color=E7A0B7&text_color=C9D1D9&border_color=30363D" alt="Most-used languages across public repositories" />
-
-<img src="https://streak-stats.demolab.com/?user=noval110&theme=dark&background=0D1117&border=30363D&ring=E580A2&fire=E580A2&currStreakLabel=E7A0B7&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak" />
-
+<img src="https://skillicons.dev/icons?i=react,ts,js,vite,go,python,postgres,docker,git,github&theme=dark" alt="Technology icons" />
 </div>
 
-## 📈 Contribution Analytics
+<br/>
+
+<a id="activity"></a>
+
+### 04 / BUILD LOG
+
+## The work keeps moving
 
 <div align="center">
-
-<img src="https://fabianocouto-activity-graph.vercel.app/graph/?username=noval110&bg_color=0D1117&color=C9D1D9&line=E580A2&point=FFFFFF&area_color=9C3155&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph" />
-
+<img src="https://streak-stats.demolab.com/?user=noval110&theme=transparent&hide_border=true&ring=65D9E8&fire=65D9E8&currStreakLabel=65D9E8&sideLabels=8BACC6&dates=7996AF&stroke=273C55" width="72%" alt="Noval GitHub contribution streak" />
 </div>
 
-## 🐍 Contribution Activity
+<details>
+<summary><b>View the animated contribution timeline</b></summary>
 
-<div align="center">
-
+<br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake-dark.svg?v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg?v=2" />
-  <img src="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg?v=2" width="100%" alt="Animated contribution snake" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg"/>
+<img src="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution activity" />
 </picture>
+</details>
 
-</div>
+<br/>
 
 ---
 
 <div align="center">
 
-*Always learning. Always building.*
+`noval110` · **Curious by default. Building with purpose.**
+
+[GitHub](https://github.com/noval110) · [Repositories](https://github.com/noval110?tab=repositories) · [Portfolio](https://github.com/noval110/portfolio)
 
 </div>
