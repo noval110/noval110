@@ -30,7 +30,7 @@ Right now, my focus is on **full-stack engineering**, strengthening my backend s
 
 ## Things I've been building
 
-<a href="https://github.com/noval110/footguard-AI"><img src="./assets/footguard.svg" width="100%" alt="FootGuard AI project — healthcare technology" /></a>
+<a href="https://github.com/noval110/footguard-AI"><img src="./assets/animated/footguard.gif" width="100%" alt="FootGuard AI project — healthcare technology" /></a>
 
 **[Explore FootGuard AI →](https://github.com/noval110/footguard-AI)**
 
@@ -40,7 +40,7 @@ AI-assisted diabetic foot screening and monitoring, connecting image analysis wi
 
 <br/>
 
-<a href="https://github.com/noval110/ecolink"><img src="./assets/ecolink.svg" width="100%" alt="EcoLink project — sustainable systems" /></a>
+<a href="https://github.com/noval110/ecolink"><img src="./assets/animated/ecolink.gif" width="100%" alt="EcoLink project — sustainable systems" /></a>
 
 **[Explore EcoLink →](https://github.com/noval110/ecolink)**
 
@@ -50,7 +50,7 @@ A platform exploring how community activities, sustainability programs, and impa
 
 <br/>
 
-<a href="https://github.com/noval110/skillmatch"><img src="./assets/skillmatch.svg" width="100%" alt="SkillMatch project — community learning" /></a>
+<a href="https://github.com/noval110/skillmatch"><img src="./assets/animated/skillmatch.gif" width="100%" alt="SkillMatch project — community learning" /></a>
 
 **[Explore SkillMatch →](https://github.com/noval110/skillmatch)**
 
