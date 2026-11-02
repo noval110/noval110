@@ -18,10 +18,29 @@
 <path d="M733 49 H757 M733 49 V72 M845 49 H820 M845 49 V72 M733 122 H757 M733 122 V100 M845 122 H820 M845 122 V100" fill="none" stroke="#64dce8" stroke-width="2.5" stroke-linecap="round"/>
 <path d="M755 101 C749 80 758 60 778 59 C796 57 804 77 801 90 C799 108 808 116 813 123" fill="none" stroke="#85b8cd" stroke-width="2" stroke-dasharray="4 4"/>
 <circle cx="781" cy="84" r="26" fill="#64dce8" opacity=".07" stroke="#64dce8" stroke-dasharray="3 4"/>
+
+<!-- Gentle scanning beam contained within the preview window -->
+<g class="motion" stroke="#8AF3F3" stroke-width="1.5" stroke-linecap="round">
+  <line x1="737" x2="838" y1="61" y2="61" opacity=".55">
+    <animate attributeName="y1" values="61;114;61" dur="6.5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="61;114;61" dur="6.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".15;.7;.15" dur="6.5s" repeatCount="indefinite"/>
+  </line>
+</g>
 <path d="M866 84 H914" stroke="#64dce8" opacity=".6"/>
+
+<!-- Data travels from scan to review -->
+<circle class="motion" cx="869" cy="84" r="3" fill="#9BFAF4" opacity=".85">
+  <animate attributeName="cx" values="869;911;869" dur="4.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;0" dur="4.8s" repeatCount="indefinite"/>
+</circle>
 <circle cx="917" cy="84" r="4" fill="#64dce8"/>
 <rect x="931" y="58" width="123" height="55" rx="8" fill="#152c42" stroke="#4e8096"/>
 <text x="945" y="80" fill="#64dce8" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.2">PIPELINE</text>
 <text x="945" y="98" fill="#eef8ff" font-family="Arial, sans-serif" font-size="14">Review flow</text>
+
+<style>
+@media (prefers-reduced-motion: reduce) { .motion { display:none } }
+</style>
 <text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#517492" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
 </g></svg>
