@@ -38,8 +38,8 @@ I'm **Noval**, a developer focused on full-stack web development, backend engine
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=noval110&show_icons=true&bg_color=0D1117&title_color=E7A0B7&text_color=C9D1D9&icon_color=E580A2&border_color=30363D" alt="Noval's GitHub statistics" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=noval110&layout=compact&bg_color=0D1117&title_color=E7A0B7&text_color=C9D1D9&border_color=30363D" alt="Most-used languages across public repositories" />
+<img height="175" src="https://github-stats-extended.vercel.app/api?username=noval110&show_icons=true&bg_color=0D1117&title_color=E7A0B7&text_color=C9D1D9&icon_color=E580A2&border_color=30363D" alt="Noval's GitHub statistics" />
+<img height="175" src="https://github-stats-extended.vercel.app/api/top-langs/?username=noval110&layout=compact&bg_color=0D1117&title_color=E7A0B7&text_color=C9D1D9&border_color=30363D" alt="Most-used languages across public repositories" />
 
 <img src="https://streak-stats.demolab.com/?user=noval110&theme=dark&background=0D1117&border=30363D&ring=E580A2&fire=E580A2&currStreakLabel=E7A0B7&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak" />
 
@@ -49,7 +49,7 @@ I'm **Noval**, a developer focused on full-stack web development, backend engine
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=noval110&bg_color=0D1117&color=C9D1D9&line=E580A2&point=FFFFFF&area_color=9C3155&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph" />
+<img src="https://fabianocouto-activity-graph.vercel.app/graph/?username=noval110&bg_color=0D1117&color=C9D1D9&line=E580A2&point=FFFFFF&area_color=9C3155&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph" />
 
 </div>
 
@@ -58,9 +58,9 @@ I'm **Noval**, a developer focused on full-stack web development, backend engine
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg?v=2" />
+  <img src="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg?v=2" width="100%" alt="Animated contribution snake" />
 </picture>
 
 </div>
