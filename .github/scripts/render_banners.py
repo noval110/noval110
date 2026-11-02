@@ -25,7 +25,7 @@ OUTPUT.mkdir(parents=True, exist_ok=True)
 def base_image(name: str) -> Image.Image:
     svg = (ASSETS / f"{name}.svg").read_text(encoding="utf-8")
     # Use the original artwork as a precise base, dropping SVG animation tags.
-    svg = re.sub(r"<(?:animate|animateMotion|animateTransform)\\b[^>]*?/>", "", svg)
+    svg = re.sub(r"<(?:animate|animateMotion|animateTransform)\b[^>]*?/>", "", svg)
     svg = re.sub(r"<style>.*?</style>", "", svg, flags=re.DOTALL)
     png = cairosvg.svg2png(bytestring=svg.encode("utf-8"),
                            output_width=WIDTH, output_height=HEIGHT)
