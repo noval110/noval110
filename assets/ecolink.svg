@@ -16,15 +16,32 @@
 
 <circle cx="800" cy="88" r="52" stroke="#92e8c2" stroke-width="1.5" fill="none" opacity=".65"/>
 <circle cx="800" cy="88" r="34" stroke="#92e8c2" stroke-width="1.5" fill="none" opacity=".4"/>
+
+<!-- Slowly rotating broken ring communicates an active network -->
+<circle class="motion" cx="800" cy="88" r="43" fill="none" stroke="#B0FADE" stroke-width="1.8" stroke-dasharray="33 237" opacity=".65">
+  <animateTransform attributeName="transform" type="rotate" from="0 800 88" to="360 800 88" dur="18s" repeatCount="indefinite"/>
+</circle>
 <circle cx="800" cy="35" r="7" fill="#92e8c2"/>
 <circle cx="754" cy="115" r="7" fill="#92e8c2"/>
 <circle cx="846" cy="114" r="7" fill="#92e8c2"/>
 <path d="M800 35 L800 88 L754 115 M800 88 L846 114" stroke="#92e8c2" stroke-width="1.5" opacity=".6"/>
-<circle cx="800" cy="88" r="10" fill="#92e8c2"/>
+<circle cx="800" cy="88" r="10" fill="#92e8c2">
+  <animate attributeName="opacity" values=".8;1;.8" dur="4.8s" repeatCount="indefinite"/>
+</circle>
 <path d="M854 88 H902" stroke="#92e8c2" opacity=".6"/>
+
+<!-- Flowing signal enters the impact panel -->
+<circle class="motion" cx="855" cy="88" r="3" fill="#C0FFE7">
+  <animate attributeName="cx" values="855;897;855" dur="5.4s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;0" dur="5.4s" repeatCount="indefinite"/>
+</circle>
 <rect x="903" y="49" width="143" height="79" rx="9" fill="#172c40" stroke="#4b826e"/>
 <text x="919" y="71" fill="#92e8c2" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.2">CONNECTED</text>
 <text x="919" y="92" fill="#ecfff6" font-family="Arial, sans-serif" font-size="15">Data + impact</text>
 <path d="M920 106 H1028" stroke="#92e8c2" opacity=".5"/>
+
+<style>
+@media (prefers-reduced-motion: reduce) { .motion { display:none } }
+</style>
 <text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#517492" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
 </g></svg>
