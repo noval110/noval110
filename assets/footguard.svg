@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 190" width="1100" height="190" role="img" aria-labelledby="title"><title id="title">FootGuard AI project artwork</title>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b2d"/><stop offset="1" stop-color="#152a42"/></linearGradient>
+<pattern id="p" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#88b7da" opacity=".12"/></pattern>
+<clipPath id="c"><rect width="1100" height="190" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1100" height="190" fill="url(#g)"/>
+<rect width="1100" height="190" fill="url(#p)"/>
+<rect x="0" y="0" width="5" height="190" fill="#64dce8"/>
+<text x="38" y="38" fill="#64dce8" font-family="Arial, sans-serif" letter-spacing="2.6" font-size="13" font-weight="700">01  /  HEALTH TECHNOLOGY</text>
+<text x="35" y="106" fill="#f4faff" font-family="Arial, sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">FootGuard AI</text>
+<text x="39" y="142" fill="#a4bed7" font-family="Arial, sans-serif" font-size="17">AI-assisted screening • clinical review workflow</text>
+<path d="M38 164 H475" stroke="#64dce8" opacity=".45"/>
+<path d="M632 25 V166" stroke="#5c7f9e" opacity=".25"/>
+
+<rect x="710" y="29" width="156" height="113" rx="10" fill="#172e44" stroke="#4e8096"/>
+<path d="M733 49 H757 M733 49 V72 M845 49 H820 M845 49 V72 M733 122 H757 M733 122 V100 M845 122 H820 M845 122 V100" fill="none" stroke="#64dce8" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M755 101 C749 80 758 60 778 59 C796 57 804 77 801 90 C799 108 808 116 813 123" fill="none" stroke="#85b8cd" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="781" cy="84" r="26" fill="#64dce8" opacity=".07" stroke="#64dce8" stroke-dasharray="3 4"/>
+<path d="M866 84 H914" stroke="#64dce8" opacity=".6"/>
+<circle cx="917" cy="84" r="4" fill="#64dce8"/>
+<rect x="931" y="58" width="123" height="55" rx="8" fill="#152c42" stroke="#4e8096"/>
+<text x="945" y="80" fill="#64dce8" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.2">PIPELINE</text>
+<text x="945" y="98" fill="#eef8ff" font-family="Arial, sans-serif" font-size="14">Review flow</text>
+<text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#517492" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
+</g></svg>
