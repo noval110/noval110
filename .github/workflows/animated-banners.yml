@@ -1,0 +1,52 @@
+name: Render animated project banners
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/animated-banners.yml"
+      - ".github/scripts/render_banners.py"
+      - "assets/footguard.svg"
+      - "assets/ecolink.svg"
+      - "assets/skillmatch.svg"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-project-banners
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: Generate genuine GIF animations
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install imaging dependencies
+        run: pip install 'Pillow>=11,<13' 'CairoSVG>=2.7,<3'
+
+      - name: Render and validate animation frames
+        run: python .github/scripts/render_banners.py
+
+      - name: Commit generated GIF banners
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/animated/footguard.gif assets/animated/ecolink.gif assets/animated/skillmatch.gif
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: refresh animated project banners"
+            git push
+          else
+            echo "Animated banners are already up to date."
+          fi
