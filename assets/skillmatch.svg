@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 190" width="1100" height="190" role="img" aria-labelledby="title"><title id="title">SkillMatch project artwork</title>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b2d"/><stop offset="1" stop-color="#152a42"/></linearGradient>
+<pattern id="p" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#88b7da" opacity=".12"/></pattern>
+<clipPath id="c"><rect width="1100" height="190" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1100" height="190" fill="url(#g)"/>
+<rect width="1100" height="190" fill="url(#p)"/>
+<rect x="0" y="0" width="5" height="190" fill="#a8afff"/>
+<text x="38" y="38" fill="#a8afff" font-family="Arial, sans-serif" letter-spacing="2.6" font-size="13" font-weight="700">03  /  COMMUNITY / LEARNING</text>
+<text x="35" y="106" fill="#f4faff" font-family="Arial, sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">SkillMatch</text>
+<text x="39" y="142" fill="#a4bed7" font-family="Arial, sans-serif" font-size="17">Exchange skills • find complementary strengths</text>
+<path d="M38 164 H475" stroke="#a8afff" opacity=".45"/>
+<path d="M632 25 V166" stroke="#5c7f9e" opacity=".25"/>
+
+<path d="M778 56 L896 92 L778 128 M896 92 L999 56 M896 92 L999 128" fill="none" stroke="#a8afff" stroke-width="2" opacity=".55"/>
+<circle cx="777" cy="56" r="24" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
+<circle cx="777" cy="128" r="24" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
+<circle cx="896" cy="92" r="31" fill="#a8afff" fill-opacity=".16" stroke="#a8afff" stroke-width="2"/>
+<circle cx="1000" cy="56" r="22" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
+<circle cx="1000" cy="128" r="22" fill="#26365c" stroke="#a8afff" stroke-width="2"/>
+<path d="M766 56 H788 M777 45 V67 M766 128 H788 M987 56 H1013 M989 128 H1011" stroke="#dce1ff" stroke-width="2" stroke-linecap="round"/>
+<text x="896" y="98" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#eef0ff">↔</text>
+<text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#517492" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
+</g></svg>
