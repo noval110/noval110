@@ -1,10 +1,6 @@
-<a href="https://www.novala.my.id">
-  <img src="./assets/portfolio/cover.jpg" width="100%" alt="Akhmad Noval Annur — fullstack developer building with React, Go and a bit of AI. Informatics student at Telkom University Purwokerto." />
-</a>
+<a href="https://www.novala.my.id"><img src="./assets/header.svg" width="100%" alt="Akhmad Noval Annur — fullstack developer building React interfaces, Go backends and AI-powered tools. Informatics student at Telkom University Purwokerto." /></a>
 
 <div align="center">
-
-**Fullstack developer / building for the web, the backend, and what comes next.**
 
 [Live portfolio](https://www.novala.my.id) · [Selected work](#selected-work) · [Toolkit](#toolkit) · [LinkedIn](https://www.linkedin.com/in/akhmad-noval-584025383) · [Email](mailto:novalahmadanur@gmail.com)
 
@@ -16,52 +12,19 @@
 
 ### 00 / THE PORTFOLIO
 
-## A website you scroll *through*, not just down.
-
-<a href="https://www.novala.my.id">
-  <img src="./assets/portfolio/hero.webp" width="100%" alt="Recording of the portfolio hero: a figure on a misty mountain at sunrise framed by trees; the title WELCOME TO MY PORTOFOLIO hops in letter by letter and the O-F-O letters follow the cursor like eyes while birds cross the sky." />
-</a>
-
-<p align="center"><sub>Recorded from the live site — the letters hop in, the <b>O·F·O</b> keeps an eye on your cursor, leaves fall and birds cross the sky.</sub></p>
-
-My portfolio is built like a short film: a sunrise I photographed on a hike becomes a layered parallax scene, and every section after it has its own small moment. A few of them:
-
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <img src="./assets/portfolio/lens.webp" width="100%" alt="Hovering the About portrait opens a circular lens that reveals an Ultraman version of the same pose." />
-      <br/><b>The lens.</b> Hover the portrait and a circle follows the cursor, revealing a hero hiding in the same pose.
-    </td>
-    <td width="50%" valign="top">
-      <img src="./assets/portfolio/timeline.jpg" width="100%" alt="Education and experience timeline that lights up step by step while scrolling." />
-      <br/><b>The journey.</b> Education and experience light up one step at a time as you scroll, over a contour map that glows around your cursor.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="./assets/portfolio/portfolio.jpg" width="100%" alt="Projects, certificates and awards tabs above a horizontal project carousel." />
-      <br/><b>The work.</b> The word PORTOFOLIO zooms until its white fills the screen, then projects, certificates and awards slide by sideways.
-    </td>
-    <td width="50%" valign="top">
-      <img src="./assets/portfolio/gallery.jpg" width="100%" alt="Photo cards flying toward the camera in a 3D gallery." />
-      <br/><b>The gallery.</b> Photos from campus, hikes and late-night coding fly toward the camera in 3D.
+    <td width="46%"><a href="https://www.novala.my.id"><img src="./assets/portfolio/preview.webp" width="100%" alt="Preview of the portfolio hero: a figure on a misty mountain at sunrise; the title hops in and its O-F-O letters look around like eyes." /></a></td>
+    <td valign="middle">
+      <b>novala.my.id</b><br/>
+      <sub>A scroll-driven portfolio: a parallax sunrise from one of my hikes, a hover lens with a hidden hero, a 3D photo gallery and a live guestbook.</sub>
+      <br/><br/>
+      <code>React</code> <code>TypeScript</code> <code>GSAP</code> <code>Supabase</code>
+      <br/><br/>
+      <a href="https://www.novala.my.id"><b>Visit the site →</b></a>
     </td>
   </tr>
 </table>
-
-<img src="./assets/portfolio/mobile.jpg" width="100%" alt="The portfolio on three phones: hero, About with the lens open, and the project carousel." />
-
-<p align="center"><sub>Made for phones too — every scene has its own portrait layout and touch interactions.</sub></p>
-
-| Layer | Built with |
-|:---|:---|
-| **Interface** | React 19, TypeScript, Vite, Tailwind CSS |
-| **Motion** | GSAP ScrollTrigger, Framer Motion, Lenis, canvas |
-| **Backend** | Supabase — realtime comments, avatar uploads, contact inbox and a private admin panel |
-| **Delivery** | Vercel, responsive WebP pipeline, reduced-motion support |
-
-> [!NOTE]
-> The source code is private, the website is not. **[Visit novala.my.id →](https://www.novala.my.id)**
 
 <br/>
 
@@ -138,20 +101,11 @@ Find competition teammates without guessing: people are matched by skills, role,
 
 ## The work keeps moving
 
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=noval110&theme=transparent&hide_border=true&ring=DB2777&fire=F472B6&currStreakNum=F472B6&currStreakLabel=F472B6&sideNums=DB2777&sideLabels=B08AA0&dates=8A6A7E&stroke=4A2340" width="72%" alt="Noval GitHub contribution streak" />
-</div>
-
-<details>
-<summary><b>View the animated contribution timeline</b></summary>
-
-<br/>
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake-dark.svg"/>
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg"/>
 <img src="https://raw.githubusercontent.com/noval110/noval110/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution activity" />
 </picture>
-</details>
 
 <br/>
 
