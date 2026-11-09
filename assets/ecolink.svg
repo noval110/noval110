@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 190" width="1100" height="190" role="img" aria-labelledby="title"><title id="title">EcoLink project artwork</title>
 <defs>
-<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b2d"/><stop offset="1" stop-color="#152a42"/></linearGradient>
-<pattern id="p" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#88b7da" opacity=".12"/></pattern>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c111f"/><stop offset="1" stop-color="#3f182c"/></linearGradient>
+<pattern id="p" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#da88b1" opacity=".12"/></pattern>
 <clipPath id="c"><rect width="1100" height="190" rx="16"/></clipPath>
 </defs>
 <g clip-path="url(#c)">
 <rect width="1100" height="190" fill="url(#g)"/>
 <rect width="1100" height="190" fill="url(#p)"/>
-<rect x="0" y="0" width="5" height="190" fill="#92e8c2"/>
-<text x="38" y="38" fill="#92e8c2" font-family="Arial, sans-serif" letter-spacing="2.6" font-size="13" font-weight="700">02  /  SUSTAINABLE SYSTEMS</text>
-<text x="35" y="106" fill="#f4faff" font-family="Arial, sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">EcoLink</text>
-<text x="39" y="142" fill="#a4bed7" font-family="Arial, sans-serif" font-size="17">Connecting communities, campaigns, and impact</text>
-<path d="M38 164 H475" stroke="#92e8c2" opacity=".45"/>
-<path d="M632 25 V166" stroke="#5c7f9e" opacity=".25"/>
+<rect x="0" y="0" width="5" height="190" fill="#e892bd"/>
+<text x="38" y="38" fill="#e892bd" font-family="Arial, sans-serif" letter-spacing="2.6" font-size="13" font-weight="700">02  /  SUSTAINABLE SYSTEMS</text>
+<text x="35" y="106" fill="#fff4fa" font-family="Arial, sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">EcoLink</text>
+<text x="39" y="142" fill="#d7a4be" font-family="Arial, sans-serif" font-size="17">Connecting communities, campaigns, and impact</text>
+<path d="M38 164 H475" stroke="#e892bd" opacity=".45"/>
+<path d="M632 25 V166" stroke="#9e5c7d" opacity=".25"/>
 
-<circle cx="800" cy="88" r="52" stroke="#92e8c2" stroke-width="1.5" fill="none" opacity=".65"/>
-<circle cx="800" cy="88" r="34" stroke="#92e8c2" stroke-width="1.5" fill="none" opacity=".4"/>
+<circle cx="800" cy="88" r="52" stroke="#e892bd" stroke-width="1.5" fill="none" opacity=".65"/>
+<circle cx="800" cy="88" r="34" stroke="#e892bd" stroke-width="1.5" fill="none" opacity=".4"/>
 
 <!-- Slowly rotating broken ring communicates an active network -->
-<circle class="motion" cx="800" cy="88" r="43" fill="none" stroke="#B0FADE" stroke-width="1.8" stroke-dasharray="33 237" opacity=".65">
+<circle class="motion" cx="800" cy="88" r="43" fill="none" stroke="#fab0d5" stroke-width="1.8" stroke-dasharray="33 237" opacity=".65">
   <animateTransform attributeName="transform" type="rotate" from="0 800 88" to="360 800 88" dur="18s" repeatCount="indefinite"/>
 </circle>
-<circle cx="800" cy="35" r="7" fill="#92e8c2"/>
-<circle cx="754" cy="115" r="7" fill="#92e8c2"/>
-<circle cx="846" cy="114" r="7" fill="#92e8c2"/>
-<path d="M800 35 L800 88 L754 115 M800 88 L846 114" stroke="#92e8c2" stroke-width="1.5" opacity=".6"/>
-<circle cx="800" cy="88" r="10" fill="#92e8c2">
+<circle cx="800" cy="35" r="7" fill="#e892bd"/>
+<circle cx="754" cy="115" r="7" fill="#e892bd"/>
+<circle cx="846" cy="114" r="7" fill="#e892bd"/>
+<path d="M800 35 L800 88 L754 115 M800 88 L846 114" stroke="#e892bd" stroke-width="1.5" opacity=".6"/>
+<circle cx="800" cy="88" r="10" fill="#e892bd">
   <animate attributeName="opacity" values=".8;1;.8" dur="4.8s" repeatCount="indefinite"/>
 </circle>
-<path d="M854 88 H902" stroke="#92e8c2" opacity=".6"/>
+<path d="M854 88 H902" stroke="#e892bd" opacity=".6"/>
 
 <!-- Flowing signal enters the impact panel -->
-<circle class="motion" cx="855" cy="88" r="3" fill="#C0FFE7">
+<circle class="motion" cx="855" cy="88" r="3" fill="#ffc0e0">
   <animate attributeName="cx" values="855;897;855" dur="5.4s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0;1;0" dur="5.4s" repeatCount="indefinite"/>
 </circle>
-<rect x="903" y="49" width="143" height="79" rx="9" fill="#172c40" stroke="#4b826e"/>
-<text x="919" y="71" fill="#92e8c2" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.2">CONNECTED</text>
-<text x="919" y="92" fill="#ecfff6" font-family="Arial, sans-serif" font-size="15">Data + impact</text>
-<path d="M920 106 H1028" stroke="#92e8c2" opacity=".5"/>
+<rect x="903" y="49" width="143" height="79" rx="9" fill="#3f182c" stroke="#824b67"/>
+<text x="919" y="71" fill="#e892bd" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.2">CONNECTED</text>
+<text x="919" y="92" fill="#ffecf6" font-family="Arial, sans-serif" font-size="15">Data + impact</text>
+<path d="M920 106 H1028" stroke="#e892bd" opacity=".5"/>
 
 <style>
 @media (prefers-reduced-motion: reduce) { .motion { display:none } }
 </style>
-<text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#517492" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
+<text x="1063" y="166" text-anchor="end" font-family="Arial, sans-serif" fill="#925172" font-size="13" letter-spacing="2">NOVAL / SELECTED WORK</text>
 </g></svg>

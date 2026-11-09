@@ -1,14 +1,67 @@
+<a href="https://www.novala.my.id">
+  <img src="./assets/portfolio/cover.jpg" width="100%" alt="Akhmad Noval Annur — fullstack developer building with React, Go and a bit of AI. Informatics student at Telkom University Purwokerto." />
+</a>
+
 <div align="center">
 
-<img src="./assets/noval-cover.svg" width="100%" alt="NOVAL — from an idea to a working system; developer portfolio cover" />
+<p><a href="https://www.novala.my.id"><img src="https://img.shields.io/badge/Live_portfolio-novala.my.id-db2777?style=for-the-badge&labelColor=1a0c16" alt="Live portfolio: novala.my.id" /></a> <a href="https://www.linkedin.com/in/akhmad-noval-584025383"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-db2777?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a0c16" alt="LinkedIn" /></a> <a href="mailto:novalahmadanur@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-db2777?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a0c16" alt="Email" /></a></p>
+
+<sub>[The portfolio](#portfolio) · [Selected work](#selected-work) · [Toolkit](#toolkit) · [Build log](#activity)</sub>
+
+</div>
 
 <br/>
 
-**Software developer / building for the web, the backend, and what comes next.**
+<a id="portfolio"></a>
 
-[Explore projects](#selected-work) · [Toolkit](#toolkit) · [Activity](#activity) · [Portfolio repository](https://github.com/noval110/portfolio)
+### 00 / THE PORTFOLIO
 
-</div>
+## A website you scroll *through*, not just down.
+
+<a href="https://www.novala.my.id">
+  <img src="./assets/portfolio/hero.webp" width="100%" alt="Recording of the portfolio hero: a figure on a misty mountain at sunrise framed by trees; the title WELCOME TO MY PORTOFOLIO hops in letter by letter and the O-F-O letters follow the cursor like eyes while birds cross the sky." />
+</a>
+
+<p align="center"><sub>Recorded from the live site — the letters hop in, the <b>O·F·O</b> keeps an eye on your cursor, leaves fall and birds cross the sky.</sub></p>
+
+My portfolio is built like a short film: a sunrise I photographed on a hike becomes a layered parallax scene, and every section after it has its own small moment. A few of them:
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/portfolio/lens.webp" width="100%" alt="Hovering the About portrait opens a circular lens that reveals an Ultraman version of the same pose." />
+      <br/><b>The lens.</b> Hover the portrait and a circle follows the cursor, revealing a hero hiding in the same pose.
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/portfolio/timeline.jpg" width="100%" alt="Education and experience timeline that lights up step by step while scrolling." />
+      <br/><b>The journey.</b> Education and experience light up one step at a time as you scroll, over a contour map that glows around your cursor.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/portfolio/portfolio.jpg" width="100%" alt="Projects, certificates and awards tabs above a horizontal project carousel." />
+      <br/><b>The work.</b> The word PORTOFOLIO zooms until its white fills the screen, then projects, certificates and awards slide by sideways.
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/portfolio/gallery.jpg" width="100%" alt="Photo cards flying toward the camera in a 3D gallery." />
+      <br/><b>The gallery.</b> Photos from campus, hikes and late-night coding fly toward the camera in 3D.
+    </td>
+  </tr>
+</table>
+
+<img src="./assets/portfolio/mobile.jpg" width="100%" alt="The portfolio on three phones: hero, About with the lens open, and the project carousel." />
+
+<p align="center"><sub>Made for phones too — every scene has its own portrait layout and touch interactions.</sub></p>
+
+| Layer | Built with |
+|:---|:---|
+| **Interface** | React 19, TypeScript, Vite, Tailwind CSS |
+| **Motion** | GSAP ScrollTrigger, Framer Motion, Lenis, canvas |
+| **Backend** | Supabase — realtime comments, avatar uploads, contact inbox and a private admin panel |
+| **Delivery** | Vercel, responsive WebP pipeline, reduced-motion support |
+
+> [!NOTE]
+> The source code is private, the website is not. **[Visit novala.my.id →](https://www.novala.my.id)**
 
 <br/>
 
@@ -16,7 +69,7 @@
 
 ## I enjoy the space between *ideas* and *working software.*
 
-I'm **Noval**, a developer in Indonesia, working across user interfaces, APIs, databases, and AI-assisted applications. I care about systems that are not just interesting to build, but genuinely useful to the people using them.
+I'm **Noval**, an Informatics student at Telkom University Purwokerto, working across user interfaces, APIs, databases, and AI-assisted applications. I care about systems that are not just interesting to build, but genuinely useful to the people using them.
 
 Right now, my focus is on **full-stack engineering**, strengthening my backend skills with **Go**, and exploring **AI engineering** through practical projects.
 
@@ -32,7 +85,7 @@ Right now, my focus is on **full-stack engineering**, strengthening my backend s
 
 <a href="https://github.com/noval110/footguard-AI"><img src="./assets/animated/footguard.gif" width="100%" alt="FootGuard AI project — healthcare technology" /></a>
 
-**[Explore FootGuard AI →](https://github.com/noval110/footguard-AI)**
+**[Explore FootGuard AI →](https://github.com/noval110/footguard-AI)** &nbsp;·&nbsp; [Live demo](https://footguard-ai.vercel.app/)
 
 AI-assisted diabetic foot screening and monitoring, connecting image analysis with a clinical review workflow. Designed as a support tool rather than a diagnosis system.
 
@@ -42,19 +95,19 @@ AI-assisted diabetic foot screening and monitoring, connecting image analysis wi
 
 <a href="https://github.com/noval110/ecolink"><img src="./assets/animated/ecolink.gif" width="100%" alt="EcoLink project — sustainable systems" /></a>
 
-**[Explore EcoLink →](https://github.com/noval110/ecolink)**
+**[Explore EcoLink →](https://github.com/noval110/ecolink)** &nbsp;·&nbsp; [Live demo](https://ecolink-sigma.vercel.app)
 
-A platform exploring how community activities, sustainability programs, and impact data can work together through structured backend services.
+Turning waste into impact: residents, waste banks and organisations connected through verified deposits, an AI waste classifier and a digital Eco Passport.
 
-`Go` &nbsp; `PostgreSQL` &nbsp; `Docker`
+`React` &nbsp; `Go` &nbsp; `PostgreSQL` &nbsp; `FastAPI` &nbsp; `PyTorch` &nbsp; `Docker`
 
 <br/>
 
 <a href="https://github.com/noval110/skillmatch"><img src="./assets/animated/skillmatch.gif" width="100%" alt="SkillMatch project — community learning" /></a>
 
-**[Explore SkillMatch →](https://github.com/noval110/skillmatch)**
+**[Explore SkillMatch →](https://github.com/noval110/skillmatch)** &nbsp;·&nbsp; [Live demo](https://skillmatch-noval7.vercel.app/)
 
-A skill-sharing concept that helps people connect around what they can teach and what they want to learn.
+Find competition teammates without guessing: people are matched by skills, role, interests and experience, with a compatibility score.
 
 `React` &nbsp; `Go` &nbsp; `PostgreSQL`
 
@@ -68,13 +121,13 @@ A skill-sharing concept that helps people connect around what they can teach and
 
 | Area | What I work with |
 |:---|:---|
-| **Interface** | React, TypeScript, JavaScript, HTML, CSS, Vite |
+| **Interface** | React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Vite |
 | **Backend** | Go, REST APIs, authentication, service integration |
-| **Data & AI** | PostgreSQL, Python, FastAPI, PyTorch |
+| **Data & AI** | PostgreSQL, Supabase, Python, FastAPI, PyTorch |
 | **Workflow** | Docker, Git, GitHub Actions, Vercel |
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,ts,js,vite,go,python,postgres,docker,git,github&theme=dark" alt="Technology icons" />
+<img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,vite,go,python,postgres,supabase,docker,git,github&theme=dark" alt="Technology icons" />
 </div>
 
 <br/>
@@ -86,7 +139,7 @@ A skill-sharing concept that helps people connect around what they can teach and
 ## The work keeps moving
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=noval110&theme=transparent&hide_border=true&ring=65D9E8&fire=65D9E8&currStreakLabel=65D9E8&sideLabels=8BACC6&dates=7996AF&stroke=273C55" width="72%" alt="Noval GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com/?user=noval110&theme=transparent&hide_border=true&ring=DB2777&fire=F472B6&currStreakNum=F472B6&currStreakLabel=F472B6&sideNums=DB2777&sideLabels=B08AA0&dates=8A6A7E&stroke=4A2340" width="72%" alt="Noval GitHub contribution streak" />
 </div>
 
 <details>
@@ -108,6 +161,6 @@ A skill-sharing concept that helps people connect around what they can teach and
 
 `noval110` · **Curious by default. Building with purpose.**
 
-[GitHub](https://github.com/noval110) · [Repositories](https://github.com/noval110?tab=repositories) · [Portfolio](https://github.com/noval110/portfolio)
+[Portfolio](https://www.novala.my.id) · [LinkedIn](https://www.linkedin.com/in/akhmad-noval-584025383) · [Repositories](https://github.com/noval110?tab=repositories) · [Email](mailto:novalahmadanur@gmail.com)
 
 </div>

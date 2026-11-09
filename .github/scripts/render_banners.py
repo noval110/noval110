@@ -43,11 +43,11 @@ def dot(d: ImageDraw.ImageDraw, x: float, y: float, rgb: tuple[int, int, int],
 def footguard(d: ImageDraw.ImageDraw, t: float) -> None:
     y = 49 + (0.5 - 0.5 * math.cos(2 * math.pi * t)) * 74
     d.rounded_rectangle((733, y-6, 842, y+6), radius=5,
-                        fill=(83, 221, 231, 24))
-    d.line((736, y, 839, y), fill=(117, 247, 242, 185), width=2)
-    dot(d, 869 + 45 * t, 84, (150, 247, 246), size=3.3,
+                        fill=(231, 83, 157, 24))
+    d.line((736, y, 839, y), fill=(247, 117, 182, 185), width=2)
+    dot(d, 869 + 45 * t, 84, (247, 150, 199), size=3.3,
         strength=0.5 + 0.5 * math.sin(math.pi * t))
-    dot(d, 38 + 437 * t, 164, (101, 234, 235), size=2.4, strength=0.8)
+    dot(d, 38 + 437 * t, 164, (235, 101, 168), size=2.4, strength=0.8)
 
 
 def ecolink(d: ImageDraw.ImageDraw, t: float) -> None:
@@ -56,11 +56,11 @@ def ecolink(d: ImageDraw.ImageDraw, t: float) -> None:
         a = theta - n * 0.105
         x = 800 + 52 * math.cos(a)
         y = 88 + 52 * math.sin(a)
-        dot(d, x, y, (157, 250, 210), size=2.2 + 1.7 * (5-n)/5,
+        dot(d, x, y, (250, 157, 204), size=2.2 + 1.7 * (5-n)/5,
             strength=(5-n)/5)
-    dot(d, 854 + 46*t, 88, (168, 255, 227), size=3.2,
+    dot(d, 854 + 46*t, 88, (255, 168, 212), size=3.2,
         strength=0.55 + 0.45 * math.sin(math.pi*t))
-    dot(d, 38 + 437*t, 164, (133, 237, 197), size=2.4, strength=0.8)
+    dot(d, 38 + 437*t, 164, (237, 133, 185), size=2.4, strength=0.8)
 
 
 def on_path(points: list[tuple[float, float]], t: float) -> tuple[float, float]:
@@ -76,12 +76,12 @@ def skillmatch(d: ImageDraw.ImageDraw, t: float) -> None:
     a = [(778, 56), (896, 92), (999, 128)]
     b = [(999, 56), (896, 92), (778, 128)]
     x, y = on_path(a, t)
-    dot(d, x, y, (224, 230, 255), size=5.1)
+    dot(d, x, y, (255, 224, 240), size=5.1)
     x, y = on_path(b, (t + .5) % 1)
-    dot(d, x, y, (138, 232, 247), size=4.4)
-    dot(d, 896, 92, (166, 180, 254),
+    dot(d, x, y, (247, 138, 193), size=4.4)
+    dot(d, 896, 92, (254, 166, 210),
         size=3.6 + 1.2 * math.sin(2 * math.pi * t), strength=0.5)
-    dot(d, 38 + 437*t, 164, (165, 176, 255), size=2.4, strength=0.8)
+    dot(d, 38 + 437*t, 164, (255, 165, 210), size=2.4, strength=0.8)
 
 
 EFFECTS = {
