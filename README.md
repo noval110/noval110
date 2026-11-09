@@ -4,9 +4,9 @@
 
 <div align="center">
 
-<p><a href="https://www.novala.my.id"><img src="https://img.shields.io/badge/Live_portfolio-novala.my.id-db2777?style=for-the-badge&labelColor=1a0c16" alt="Live portfolio: novala.my.id" /></a> <a href="https://www.linkedin.com/in/akhmad-noval-584025383"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-db2777?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a0c16" alt="LinkedIn" /></a> <a href="mailto:novalahmadanur@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-db2777?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a0c16" alt="Email" /></a></p>
+**Fullstack developer / building for the web, the backend, and what comes next.**
 
-<sub>[The portfolio](#portfolio) · [Selected work](#selected-work) · [Toolkit](#toolkit) · [Build log](#activity)</sub>
+[Live portfolio](https://www.novala.my.id) · [Selected work](#selected-work) · [Toolkit](#toolkit) · [LinkedIn](https://www.linkedin.com/in/akhmad-noval-584025383) · [Email](mailto:novalahmadanur@gmail.com)
 
 </div>
 
