@@ -10,21 +10,7 @@
 
 <a id="portfolio"></a>
 
-### 00 / THE PORTFOLIO
-
-<table>
-  <tr>
-    <td width="46%"><a href="https://www.novala.my.id"><img src="./assets/portfolio/preview.webp" width="100%" alt="Preview of the portfolio hero: a figure on a misty mountain at sunrise; the title hops in and its O-F-O letters look around like eyes." /></a></td>
-    <td valign="middle">
-      <b>novala.my.id</b><br/>
-      <sub>A scroll-driven portfolio: a parallax sunrise from one of my hikes, a hover lens with a hidden hero, a 3D photo gallery and a live guestbook.</sub>
-      <br/><br/>
-      <code>React</code> <code>TypeScript</code> <code>GSAP</code> <code>Supabase</code>
-      <br/><br/>
-      <a href="https://www.novala.my.id"><b>Visit the site →</b></a>
-    </td>
-  </tr>
-</table>
+<a href="https://www.novala.my.id"><img src="./assets/portfolio/card.webp" width="100%" alt="The portfolio at novala.my.id: a scroll-driven site built around a sunrise photographed on a hike, with a parallax hero, a hover lens, a 3D photo gallery and a live guestbook. Built with React, TypeScript, GSAP and Supabase." /></a>
 
 <br/>
 
